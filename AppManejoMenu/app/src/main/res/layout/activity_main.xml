@@ -14,12 +14,5 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-    <!-- no se recomiendo usar fragment mediante xml pero por efecto de estudio de aplicara-->
-    <fragment
-        android:id="@+id/fragment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        class="com.example.yami.manejandoactividades.MainFragment"
-        />
 
 </android.support.constraint.ConstraintLayout>
